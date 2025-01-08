@@ -30,15 +30,15 @@ cp config.example.json config.json # fill the values
 ```
 You must also have these options selected in the Installation section from the developer portal of your bot.
 
-![image](https://github.com/user-attachments/assets/8037082a-d3db-4b5c-b750-a6d62090d0b1)
+![image](https://github.com/user-attachments/assets/08975fb8-b767-44e8-b56a-c6d7768b1d70)
 
 
+3. Run the following commands
 
-3. Run the following command `npm run build`
-
-This is to ensure that the slash commands are set up correctly, so that when the bot joins your server it provides autocompletion for the commands.
 
 ```bash
+# This is to ensure that the slash commands are set up correctly, so that when the bot joins your server it provides autocompletion for the commands.
+npm run build
 # if you wish you can test the application
 npm run test
 # start the server
@@ -47,7 +47,7 @@ npm run start
 
 4. Invite the bot to your server using Oauth2 with the following options
 
-![2025-01-08_10-231](https://github.com/user-attachments/assets/b5668bbd-0f60-4ec3-8f0b-11e4badda79a)
+![2025-01-08_10-543](https://github.com/user-attachments/assets/5e236806-7cc9-4b3e-9e66-8051ee5fe100)
 
 
 5. Enjoy the bot!
