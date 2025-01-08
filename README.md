@@ -1,26 +1,53 @@
-# README
+# PokeBot:
 
-## PokeBot:
-
-### Bot Description
 PokeBot is a discord bot that displays information about pokemon using the [PokeAPI](https://pokeapi.co/). This bot focuses particulary in showing pokemon moves, type effectiveness comparisons and general information about certain pokemon.
 
 
 
 ### Installation and Setup
 
+Before installing you will need two things:
+
+0. Install required packages
+
 ```bash
-# install packages
 npm install
-# "build" application (generate the commands)
-npm run build
+```
+
+1. Create a discord bot with the required permissions
+
+Follow [this guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot) to create your bot.
+
+2. Create `config.json` file based on sample file and fill in the credentials
+
+```bash
+cp config.example.json config.json # fill the values
+```
+```json
+{
+  "clientId": "<your-client-id-here>",
+  "token": "<your-token-here>"
+}
+```
+
+
+
+2. Run the following command `npm run build`
+
+This is to ensure that the slash commands are set up correctly, so that when the bot joins your server it provides autocompletion for the commands.
+
+```bash
 # if you wish you can test the application
 npm run test
 # start the server
 npm run start
 ```
 
-### Commands
+4. Invite the bot to your server using Oauth2 with the following options
+
+5. Enjoy the bot!
+
+### Usage
 
 #### /search-pokemon `<pokemon>`
 
@@ -137,3 +164,5 @@ Accuracy
 Damage Class
 Special (Special damage, controlled by Special Attack and Special Defense)
 ```
+
+If there is any issue with the bot or code please feel free to drop an issue on the repo.
