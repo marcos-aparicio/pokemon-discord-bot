@@ -6,7 +6,6 @@ PokeBot is a discord bot that displays information about pokemon using the [Poke
 
 ### Installation and Setup
 
-Before installing you will need two things:
 
 0. Install required packages
 
@@ -14,7 +13,7 @@ Before installing you will need two things:
 npm install
 ```
 
-1. Create a discord bot with the required permissions
+1. Create a discord bot
 
 Follow [this guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot) to create your bot.
 
@@ -29,10 +28,13 @@ cp config.example.json config.json # fill the values
   "token": "<your-token-here>"
 }
 ```
+You must also have these options selected in the Installation section from the developer portal of your bot.
+
+![image](https://github.com/user-attachments/assets/8037082a-d3db-4b5c-b750-a6d62090d0b1)
 
 
 
-2. Run the following command `npm run build`
+3. Run the following command `npm run build`
 
 This is to ensure that the slash commands are set up correctly, so that when the bot joins your server it provides autocompletion for the commands.
 
@@ -44,6 +46,9 @@ npm run start
 ```
 
 4. Invite the bot to your server using Oauth2 with the following options
+
+![2025-01-08_10-231](https://github.com/user-attachments/assets/b5668bbd-0f60-4ec3-8f0b-11e4badda79a)
+
 
 5. Enjoy the bot!
 
